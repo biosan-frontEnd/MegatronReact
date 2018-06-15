@@ -5,7 +5,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-// css in js
 const PageWrapper = styled.div`
   font-size: 28px;
 `
@@ -19,7 +18,7 @@ class NoMatch extends React.Component {
     const { location } = this.props
     return (
       <PageWrapper>
-        <h3>Not Found <code>{location.pathname}</code></h3>
+        <h3>Not Found ~<code>{location.pathname}</code></h3>
       </PageWrapper>
     )
   }
