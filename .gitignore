@@ -5,3 +5,4 @@ tests
 template/node_modules
 template/dist
 npm-debug.log
+dist

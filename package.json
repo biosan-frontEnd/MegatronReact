@@ -2,6 +2,7 @@
   "name": "MegatronReact",
   "version": "0.0.1",
   "private": true,
+  "homepage": "",
   "dependencies": {
     "antd-mobile": "^1.4.1",
     "blueimp-md5": "^2.7.0",

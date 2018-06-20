@@ -23,11 +23,9 @@ class Home extends ViewComponent {
     }
     this.setTransition = this.setTransition.bind(this)
   }
-
   setTransition (event) {
     this.props.setPageTransition('slide-left')
   }
-
   renderContent(pageText) {
     return (
       <div style={{ backgroundColor: 'white', height: '100%', textAlign: 'center' }}>
